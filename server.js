@@ -8,14 +8,14 @@ const main = function(scenexe2) {
     },
     port: 3000,
     testing: 1,
-    start: `load('./dim-ffa.js')`,
+    start: `load('./d-2teams.js')`,
     secret: {
       p1: process.env.token,
     },
     standalone: 1
   }
   let data = scenexe2.run(options)
-  data.dimension.dims.test.gleaming = 1
+  data.dimension.dims.2teams.gleaming = 1
 }
 
 fetch('https://beta-scenexe2.glitch.me/scenexe2.js', function(a, b, c) {
