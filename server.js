@@ -15,7 +15,6 @@ const main = function(scenexe2) {
     standalone: 1
   }
   let data = scenexe2.run(options)
-  data.dimension.dims.2teams.gleaming = 1
 }
 
 fetch('https://beta-scenexe2.glitch.me/scenexe2.js', function(a, b, c) {
