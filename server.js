@@ -10,8 +10,7 @@ const main = function(scenexe2) {
     testing: 1,
     start: `load('./dim-ffa.js')`,
     secret: {
-      p1: 'a',
-      p2: 'b'
+      p1: process.env.token,
     },
     standalone: 1
   }
