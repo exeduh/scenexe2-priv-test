@@ -8,7 +8,7 @@ const main = function(scenexe2) {
     },
     port: 3000,
     testing: 1,
-    start: `load('./d-2teams.js')`,
+    start: `load('./d-2teams.js'); load('./d-sanctuary.js')`,
     secret: {
       p1: process.env.token,
     },
